@@ -22,18 +22,16 @@ This repository is focused on **learning by building** — each project targets 
 📂 Project Structure
 Each project lives in its own folder:
 react-practice-projects/
-│
-├── project-1-name/
-│ ├── src/
-│ ├── public/
-│ └── README.md (optional project-specific notes)
-│
-├── project-2-name/
-│ ├── src/
-│ ├── public/
-│ └── README.md
-│
-└── ...
+  project-1-name/
+    src/
+    public/
+    README.md (optional project-specific notes)
+
+  project-2-name/
+    src/
+    public/
+    README.md
+
 This structure keeps projects independent and easy to maintain.
 ---
 
