@@ -24,6 +24,11 @@ Each component focuses on a specific UI/UX pattern commonly used in real-world a
 - Hover and click support
 - Commonly used for reviews and feedback systems
 
+### 5. Load More Products
+- Fetches and displays additional products data through API
+- Modern and classic Dipslay of products data
+- Can be a basic implementation for unlimitied scrolls
+
 ---
 
 ## 🛠️ Tech Stack & Dependencies
