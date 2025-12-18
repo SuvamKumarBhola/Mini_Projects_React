@@ -16,7 +16,7 @@ function LoadMore() {
         setProducts((prevProducts) => [...prevProducts, ...data.products]);
         setLoading(false);
 
-        // To Disable The Load More button if we've loaded all products(Max=100)
+        // Disable button if we've loaded all products
         if (data.products.length < 20 || products.length + data.products.length >= data.total) {
           setDisableButton(true);
         }
@@ -41,8 +41,8 @@ function LoadMore() {
 
       <div style={styles.productContainer}>
         {products && products.length ? (
-          products.map((item) => (
-            <div style={styles.product} key={item.id}>
+          products.map((item, index) => (
+            <div style={styles.product} key={`${item.id}-${index}`}>
               <div style={styles.imageWrapper}>
                 <img src={item.thumbnail} alt={item.title} style={styles.image} />
               </div>
@@ -181,7 +181,7 @@ const styles = {
   },
 };
 
-
+// Add keyframe animation for spinner
 const styleSheet = document.createElement('style');
 styleSheet.textContent = `
   @keyframes spin {
