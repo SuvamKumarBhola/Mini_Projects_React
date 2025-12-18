@@ -29,6 +29,12 @@ Each component focuses on a specific UI/UX pattern commonly used in real-world a
 - Modern and classic Dipslay of products data
 - Can be a basic implementation for unlimitied scrolls
 
+### 6. Side Menu
+- Collapsible side navigation menu
+- Supports toggle open/close behavior
+- Commonly used in dashboards and admin panels
+- Helps understand layout structuring and state-driven UI
+
 ---
 
 ## 🛠️ Tech Stack & Dependencies
