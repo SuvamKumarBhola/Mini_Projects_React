@@ -1,11 +1,12 @@
 import './App.css'
-import LoadMore from './components/LoadMore/Index'
-import Menu from './components/SideMenu/data'
-import SideMenu from './components/SideMenu/Index'
+// import LoadMore from './components/LoadMore/Index'
+// import Menu from './components/SideMenu/data'
+// import SideMenu from './components/SideMenu/Index'
 // import RandomColor from './components/RandomColor'
 // import Accordian from './components/Accordian'
 // import StarRating from './components/StarRating/Index'
 // import ImageSlider from './components/ImageSlider/Index'
+import Toggle from './components/Toggle'
 
 
 function App() {
@@ -28,7 +29,10 @@ function App() {
       {/* <LoadMore/> */}
 
       {/* Side Menu Components */}
-      <SideMenu menues={Menu} />
+      {/* <SideMenu menues={Menu} /> */}
+
+      {/* Toggle Commponents */}
+      <Toggle />
 
 
     </>
