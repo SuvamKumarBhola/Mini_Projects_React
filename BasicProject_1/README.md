@@ -35,6 +35,11 @@ Each component focuses on a specific UI/UX pattern commonly used in real-world a
 - Commonly used in dashboards and admin panels
 - Helps understand layout structuring and state-driven UI
 
+### 7. Toggle Button
+- Interactive Toggle Button
+- Supports toggle On/Off state behavior
+- Commonly used to hide or unhide the status
+
 ---
 
 ## 🛠️ Tech Stack & Dependencies
