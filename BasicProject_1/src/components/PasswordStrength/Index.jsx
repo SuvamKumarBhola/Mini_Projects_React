@@ -19,6 +19,8 @@ function PasswordStrength() {
     ].filter(Boolean).length;
 
     let StrengthLable = "Weak";
+    let StrengthColor = "red";
+
     if (StrengthCore === 4) {
         StrengthLable = "Strong"
     } else if (StrengthCore === 3) {
@@ -36,6 +38,34 @@ function PasswordStrength() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
             />
+
+            {
+                password &&(
+                    <div style={{marginTop:"10px"}}>
+                        <p>Password Strength: <strong>{StrengthLable.toUpperCase()}</strong></p>
+                        <div style={{
+                            height:"8px",
+                            width:"250px",
+                            backgroundColor:"#e0e0e0",
+                            borderRadius:"4px",
+                            overflow:"hidden",
+                            marginTop:"10px",
+                            position:"relative"
+                        }}>
+                        <div style={{
+                            height:"100%",
+                            width:`${StrengthCore/4}*100`,
+                            backgroundColor:StrengthColor,
+                            transition:"Width 0.3s ease-in-out",
+                            borderRadius:"4px",
+                            position:"absolute",
+                            top:"0",
+                            left:"0"
+                        }}/>
+                        </div>
+                    </div>
+                )
+            }
         </div>
     )
 }
