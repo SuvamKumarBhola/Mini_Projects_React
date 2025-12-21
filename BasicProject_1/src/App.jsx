@@ -6,7 +6,8 @@ import './App.css'
 // import Accordian from './components/Accordian'
 // import StarRating from './components/StarRating/Index'
 // import ImageSlider from './components/ImageSlider/Index'
-import Toggle from './components/Toggle'
+// import Toggle from './components/Toggle'
+import PasswordStrength from './components/PasswordStrength/Index'
 
 
 function App() {
@@ -32,8 +33,10 @@ function App() {
       {/* <SideMenu menues={Menu} /> */}
 
       {/* Toggle Commponents */}
-      <Toggle />
+      {/* <Toggle /> */}
 
+      {/* Password Strength Component */}
+      <PasswordStrength />
 
     </>
   )
