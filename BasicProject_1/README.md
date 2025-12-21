@@ -40,6 +40,11 @@ Each component focuses on a specific UI/UX pattern commonly used in real-world a
 - Supports toggle On/Off state behavior
 - Commonly used to hide or unhide the status
 
+### 8. Password Strength Checker
+- Strength label (Weak / Medium / Strong/ Very Strong)
+- Animated progress bar
+- Color-coded feedback
+
 ---
 
 ## 🛠️ Tech Stack & Dependencies
