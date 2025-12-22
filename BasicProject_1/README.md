@@ -45,6 +45,11 @@ Each component focuses on a specific UI/UX pattern commonly used in real-world a
 - Animated progress bar
 - Color-coded feedback
 
+### 9. Smart Counter
+- Animated progress bar showing percentage completion
+- Responsive button states
+- Statistics Dashboard
+- Disabled state styling for boundaries
 ---
 
 ## 🛠️ Tech Stack & Dependencies
