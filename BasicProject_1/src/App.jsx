@@ -7,7 +7,8 @@ import './App.css'
 // import StarRating from './components/StarRating/Index'
 // import ImageSlider from './components/ImageSlider/Index'
 // import Toggle from './components/Toggle'
-import PasswordStrength from './components/PasswordStrength/Index'
+// import PasswordStrength from './components/PasswordStrength/Index'
+import SmartCounter from './components/SmartCounter/Index'
 
 
 function App() {
@@ -36,7 +37,10 @@ function App() {
       {/* <Toggle /> */}
 
       {/* Password Strength Component */}
-      <PasswordStrength />
+      {/* <PasswordStrength /> */}
+
+      {/* Smart Counter Component */}
+      <SmartCounter />
 
     </>
   )
