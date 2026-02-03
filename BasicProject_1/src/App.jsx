@@ -40,7 +40,7 @@ function App() {
       {/* <PasswordStrength /> */}
 
       {/* Smart Counter Component */}
-      <SmartCounter />
+      {/* <SmartCounter /> */}
 
     </>
   )
